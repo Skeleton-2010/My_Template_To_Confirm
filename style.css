@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+body {
+  background-color: #ffffff;
+}
+.Page-Menu {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)),
+    url(./Images/Menu_BackGround.jpg);
+  background-size: cover;
+}
+.Top-Menu {
+  background-color: #ffffff;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Company-Brand {
+  width: 160px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Brand-Image {
+  width: 92px;
+}
+.Brand-Title {
+  font-family: "Oswald";
+  font-size: 24px;
+  line-height: 22px;
+  width: 64px;
+}
+.Menu-Buttons {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.TopMenu-Button {
+  display: block;
+  height: 100%;
+  padding: 0px 32px;
+  background-color: #ffffff;
+  color: #ffc90e;
+  text-align: center;
+  line-height: 96px;
+  font-size: 24px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: 0.4s;
+  border-bottom: 8px solid #9adaeb;
+  box-sizing: border-box;
+}
+.TopMenu-Button:hover {
+  background-color: #ffc90e;
+  color: #ffffff;
+  border-bottom: 8px solid #ffffff;
+}
+.Menu-Tagline-Container {
+  margin: auto;
+  margin-top: 12%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Tagline {
+  font-size: 64px;
+  font-weight: 500;
+  text-decoration: underline #ffc90e;
+  text-align: center;
+}
+.Tagline-Smaller {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.Menu-Button {
+  margin: auto;
+  margin-top: 32px;
+  display: block;
+  width: 192px;
+  height: 88px;
+  text-align: center;
+  line-height: 96px;
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  background-color: #ffc90e;
+  color: #ffffff;
+  border-bottom: 8px solid transparent;
+  transition: 0.4s;
+}
+.Menu-Button:hover {
+  width: 256px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-bottom: 8px solid #9adaeb;
+  color: #ffc90e;
+}
+/* New Page */
+.Page-TransitionLine {
+  background-color: #ffc90e;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.TransitionLine-Text {
+  color: #000000;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+.Page-Explanation {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+    url(./Images/Site_BackGround_2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Explanation-Part {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Explanation-Text-Right,
+.Explanation-Text-Left {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 200;
+  width: 30%;
+}
+.Explanation-Text-Left {
+  margin-bottom: 128px;
+}
+.Explanation-Text-Right {
+  margin-top: 128px;
+}
+.ExplanationPage-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+}
+.ExplanationPage-Image {
+  height: 220px;
+}
+.Information-Button {
+  margin-top: 48px;
+  width: 192px;
+  height: 88px;
+  text-align: center;
+  line-height: 96px;
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  background-color: #9adaeb;
+  color: #ffffff;
+  border-bottom: 8px solid transparent;
+  transition: 0.4s;
+}
+.Information-Button:hover {
+  width: 256px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-bottom: 8px solid #ffc90e;
+  color: #ffc90e;
+}
+/* New Page */
+.Page-PresentUsing {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./Images/Site_BackGround.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.UsingPage-Explanation-Part {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.UsingPage-Image {
+  height: 320px;
+}
+.UsingPage-Items-Container {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.UsingPage-Text {
+  width: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+}
+/* New Page */
+.University-Location {
+  height: 40vh;
+  background-color: #161616;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Location-Image {
+  height: 192px;
+}
+.Location-Text-Wrapper {
+  width: 64%;
+}
+.LocationPage-Text {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 200;
+}
+.Location-Information-List {
+  color: #9adaeb;
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 24px;
+}
+.Location-Info {
+  margin-top: 6px;
+}
+.Location-Info::before {
+  content: "•";
+}
+
+@media (max-width: 950px) {
+  .ExplanationPage-Image {
+    height: 192px;
+  }
+  .Explanation-Text-Left,
+  .Explanation-Text-Right {
+    width: 24%;
+    font-size: 16px;
+  }
+  .UsingPage-Text {
+    font-size: 16px;
+  }
+  .TopMenu-Button {
+    padding: 0px 16px;
+    font-size: 20px;
+  }
+  .Tagline {
+    font-size: 48px;
+  }
+  .TransitionLine-Text {
+    font-size: 32px;
+  }
+  .LocationPage-Text {
+    font-size: 16px;
+  }
+  .Location-Info {
+    font-size: 12;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Top-Menu {
+    height: 80px;
+  }
+  .TopMenu-Button {
+    font-size: 16px;
+    line-height: 80px;
+  }
+  .Explanation-Part {
+    flex-direction: column;
+  }
+  .ExplanationPage-Image {
+    height: 160px;
+  }
+  .Explanation-Text-Left,
+  .Explanation-Text-Right {
+    width: 88%;
+    font-size: 14px;
+    margin: 0;
+  }
+  .UsingPage-Text {
+    font-size: 14px;
+  }
+  .UsingPage-Image {
+    height: 240px;
+  }
+  .TransitionLine-Text {
+    font-size: 32px;
+  }
+  .Location-Image {
+    height: 128px;
+  }
+  .Information-Button,
+  .Menu-Button {
+    height: 64px;
+    line-height: 64px;
+  }
+}
+
+@media (max-width: 540px) {
+  .TopMenu-Button {
+    font-size: 14px;
+  }
+  .Top-Menu {
+    height: 10vh;
+  }
+  .Company-Brand {
+    margin-left: 12px;
+  }
+  .Brand-Image {
+    width: 64px;
+  }
+  .Brand-Title {
+    font-size: 16px;
+    margin-right: 24px;
+  }
+  .Explanation-Part {
+    flex-direction: column;
+  }
+  .ExplanationPage-Image {
+    height: 128px;
+  }
+  .Explanation-Text-Left,
+  .Explanation-Text-Right {
+    width: 88%;
+    font-size: 14px;
+    margin: 0;
+  }
+  .Explanation-Text-Left {
+    margin-top: 24px;
+  }
+  .Explanation-Text-Right {
+    margin-bottom: 40px;
+  }
+  .UsingPage-Text {
+    font-size: 14px;
+  }
+  .UsingPage-Items-Container {
+    width: 80%;
+  }
+  .UsingPage-Image {
+    height: 384px;
+    margin-top: 64px;
+  }
+  .Information-Button,
+  .Menu-Button {
+    height: 56px;
+    width: 128px;
+    line-height: 56px;
+    font-size: 16px;
+  }
+  .UsingPage-Explanation-Part {
+    flex-direction: column;
+  }
+  .TransitionLine-Text {
+    font-size: 24px;
+  }
+  .Location-Info {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .Menu-Tagline-Container {
+    margin-top: 128px;
+  }
+  .Tagline {
+    font-size: 36px;
+  }
+  .Tagline-Smaller {
+    font-size: 20px;
+  }
+  .Company-Brand {
+    width: 32%;
+    margin-right: 48px;
+    margin-top: 8px;
+  }
+  .Brand-Image {
+    width: 60px;
+    margin-right: 8px;
+  }
+  .Top-Menu {
+    height: 16vh;
+    flex-direction: column;
+  }
+  .TopMenu-Button {
+    height: 48px;
+    width: 96px;
+    line-height: 48px;
+    margin-top: 6px;
+  }
+  .Brand-Title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .Explanation-Part {
+    flex-direction: column;
+  }
+  .ExplanationPage-Image {
+    height: 128px;
+  }
+  .Explanation-Text-Left,
+  .Explanation-Text-Right {
+    width: 88%;
+    font-size: 12px;
+    margin: 0;
+  }
+  .Explanation-Text-Left {
+    margin-top: 24px;
+  }
+  .Explanation-Text-Right {
+    margin-bottom: 40px;
+  }
+  .UsingPage-Text {
+    font-size: 12px;
+    text-align: center;
+  }
+  .UsingPage-Items-Container {
+    width: 80%;
+  }
+  .UsingPage-Image {
+    height: 320px;
+    margin-top: 64px;
+  }
+  .Information-Button,
+  .Menu-Button {
+    height: 48px;
+    width: 112px;
+    line-height: 56px;
+    font-size: 16px;
+  }
+  .UsingPage-Explanation-Part {
+    flex-direction: column;
+  }
+  .TransitionLine-Text {
+    font-size: 20px;
+  }
+  .Location-Info {
+    font-size: 12px;
+  }
+  .Location-Text-Wrapper {
+    width: 96vw;
+  }
+  .Location-Information-List {
+    width: 96%;
+    margin-bottom: 32px;
+  }
+  .University-Location {
+    flex-direction: column;
+    height: 60vh;
+    text-align: center;
+  }
+}
